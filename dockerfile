@@ -3,7 +3,6 @@
 #
 
 FROM alpine
-MAINTAINER kev <noreply@easypi.pro>
 
 RUN apk add --no-cache ca-certificates mosquitto
 
