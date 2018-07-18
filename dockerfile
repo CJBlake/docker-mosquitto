@@ -6,7 +6,6 @@ FROM alpine
 
 RUN apk add --no-cache ca-certificates mosquitto
 
-VOLUME /etc/mosquitto
 EXPOSE 1883 8883
 
 ENTRYPOINT ["mosquitto"]
